@@ -51,6 +51,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BBB87FE2A50D3E3004176A1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5BED9A9C2A4F662700359F76 /* SearchVC.swift */,
+				5BED9A9E2A4F665200359F76 /* FavoritesListVC.swift */,
+				5BBB87F42A50C0AA004176A1 /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5BBB87FF2A50D41E004176A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB87FA2A50CA55004176A1 /* GFAlertVC.swift */,
+				5BBB87EE2A4F7224004176A1 /* GFButton.swift */,
+				5BBB87F02A50B137004176A1 /* GFTextField.swift */,
+				5BBB87F62A50C817004176A1 /* GFTitleLabel.swift */,
+				5BBB87F82A50C99D004176A1 /* GFBodyLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5BBB88002A50D44C004176A1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB87FC2A50D066004176A1 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5BBB88012A50D4AC004176A1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				5BED9A882A4F614700359F76 /* AppDelegate.swift */,
+				5BED9A8A2A4F614700359F76 /* SceneDelegate.swift */,
+				5BED9A912A4F614900359F76 /* Assets.xcassets */,
+				5BED9A932A4F614900359F76 /* LaunchScreen.storyboard */,
+				5BED9A962A4F614900359F76 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		5BED9A7C2A4F614700359F76 = {
 			isa = PBXGroup;
 			children = (
@@ -70,20 +112,10 @@
 		5BED9A872A4F614700359F76 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				5BED9A9C2A4F662700359F76 /* SearchVC.swift */,
-				5BED9A9E2A4F665200359F76 /* FavoritesListVC.swift */,
-				5BBB87F42A50C0AA004176A1 /* FollowerListVC.swift */,
-				5BBB87FA2A50CA55004176A1 /* GFAlertVC.swift */,
-				5BBB87EE2A4F7224004176A1 /* GFButton.swift */,
-				5BBB87F02A50B137004176A1 /* GFTextField.swift */,
-				5BBB87F62A50C817004176A1 /* GFTitleLabel.swift */,
-				5BBB87F82A50C99D004176A1 /* GFBodyLabel.swift */,
-				5BED9A882A4F614700359F76 /* AppDelegate.swift */,
-				5BED9A8A2A4F614700359F76 /* SceneDelegate.swift */,
-				5BED9A912A4F614900359F76 /* Assets.xcassets */,
-				5BED9A932A4F614900359F76 /* LaunchScreen.storyboard */,
-				5BED9A962A4F614900359F76 /* Info.plist */,
-				5BBB87FC2A50D066004176A1 /* UIViewController+Ext.swift */,
+				5BBB88002A50D44C004176A1 /* Extensions */,
+				5BBB87FF2A50D41E004176A1 /* Views */,
+				5BBB87FE2A50D3E3004176A1 /* Screens */,
+				5BBB88012A50D4AC004176A1 /* Support */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
