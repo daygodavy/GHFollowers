@@ -63,12 +63,12 @@
 				5BED9A9C2A4F662700359F76 /* SearchVC.swift */,
 				5BED9A9E2A4F665200359F76 /* FavoritesListVC.swift */,
 				5BBB87EE2A4F7224004176A1 /* GFButton.swift */,
+				5BBB87F02A50B137004176A1 /* GFTextField.swift */,
 				5BED9A882A4F614700359F76 /* AppDelegate.swift */,
 				5BED9A8A2A4F614700359F76 /* SceneDelegate.swift */,
 				5BED9A912A4F614900359F76 /* Assets.xcassets */,
 				5BED9A932A4F614900359F76 /* LaunchScreen.storyboard */,
 				5BED9A962A4F614900359F76 /* Info.plist */,
-				5BBB87F02A50B137004176A1 /* GFTextField.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
