@@ -92,7 +92,6 @@
 				5BED9A8A2A4F614700359F76 /* SceneDelegate.swift */,
 				5BED9A912A4F614900359F76 /* Assets.xcassets */,
 				5BED9A932A4F614900359F76 /* LaunchScreen.storyboard */,
-				5BED9A962A4F614900359F76 /* Info.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -130,6 +129,7 @@
 				5BBB87FF2A50D41E004176A1 /* Views */,
 				5BBB87FE2A50D3E3004176A1 /* Screens */,
 				5BBB88012A50D4AC004176A1 /* Support */,
+				5BED9A962A4F614900359F76 /* Info.plist */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
