@@ -32,8 +32,6 @@ class FavoriteCell: UITableViewCell {
     
     
     private func configure() {
-//        contentView.addSubview(avatarImageView)
-//        contentView.addSubview(usernameLabel)
         addSubview(avatarImageView)
         addSubview(usernameLabel)
         
