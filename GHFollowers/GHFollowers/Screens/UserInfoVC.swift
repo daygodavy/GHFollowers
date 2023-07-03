@@ -25,6 +25,7 @@ class UserInfoVC: GFDataLoadingVC {
     var username: String!
     weak var delegate: UserInfoVCDelegate!
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViewController()
@@ -120,7 +121,6 @@ class UserInfoVC: GFDataLoadingVC {
     @objc func dismissVC() {
         dismiss(animated: true)
     }
-
 }
 
 
