@@ -79,26 +79,6 @@ class FollowerListVC: GFDataLoadingVC {
     }
     
     
-//    func getFollowers(username: String, page: Int) {
-//        showLoadingView()
-//        isLoadingMoreFollowers = true
-//        NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
-//            guard let self = self else { return }
-//            self.dismissLoadingView()
-//
-//            switch result {
-//            case .success(let followers):
-//                self.updateUI(with: followers)
-//
-//            case .failure(let error):
-//                self.presentGFAlertOnMainThread(title: "Bad Stuff Happened", message: error.rawValue, buttonTitle: "Ok")
-//            }
-//
-//            self.isLoadingMoreFollowers = false
-//        }
-//    }
-    
-    
     func getFollowers(username: String, page: Int) {
         showLoadingView()
         isLoadingMoreFollowers = true
@@ -154,24 +134,6 @@ class FollowerListVC: GFDataLoadingVC {
         
         DispatchQueue.main.async { self.dataSource.apply(snapshot, animatingDifferences: true) }
     }
-    
-    
-//    @objc func addButtonTapped() {
-//        showLoadingView()
-//
-//        NetworkManager.shared.getUserInfo(for: username) { [weak self] result in
-//            guard let self = self else { return }
-//            self.dismissLoadingView()
-//
-//            switch result {
-//            case .success(let user):
-//                self.addUserToFavorites(user: user)
-//
-//            case .failure(let error):
-//                self.presentGFAlert(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
-//            }
-//        }
-//    }
     
     
     @objc func addButtonTapped() {
