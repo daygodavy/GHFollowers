@@ -20,9 +20,9 @@ class GFButton: UIButton {
     }
     
     
-    convenience init(backgroundColor: UIColor, title: String) {
+    convenience init(backgroundColor: UIColor, title: String, systemImageName: String) {
         self.init(frame: .zero)
-        set(color: backgroundColor, title: title)
+        set(color: backgroundColor, title: title, systemImageName: systemImageName)
     }
     
     
@@ -33,9 +33,13 @@ class GFButton: UIButton {
     }
     
     
-    final func set(color: UIColor, title: String) {
+    final func set(color: UIColor, title: String, systemImageName: String) {
         configuration?.baseBackgroundColor = color
         configuration?.baseForegroundColor = color
         configuration?.title = title
+        
+        configuration?.image = UIImage(systemName: systemImageName)
+        configuration?.imagePadding = 6
+        configuration?.imagePlacement = .leading
     }
 }
